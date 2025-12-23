@@ -1,5 +1,5 @@
 // String data type: used for text
-const course = "JavaScript Basics";
+const courseName = "JavaScript";
 
 // Number data type: used for numeric values
 const durationInWeeks = 6;
@@ -14,8 +14,8 @@ let mentorName = null;
 let topicsCovered;
 
 // Log each value along with its data type
-console.log("Course:", course, typeof course);
-console.log("Duration weeks):", durationInWeeks, typeof durationInWeeks);
+console.log("Course Name:", courseName, typeof courseName);
+console.log("Duration weeks:", durationInWeeks, typeof durationInWeeks);
 console.log("Is Completed:", isCompleted, typeof isCompleted);
 console.log("Mentor Name:", mentorName, typeof mentorName);
 console.log("Topics Covered:", topicsCovered, typeof topicsCovered);
