@@ -42,33 +42,3 @@ else if (experienceYears >= 5) {
 else {
   console.log('You are a beginner.');
 }
-
-
-for(let i =0; i<=20;i++){
-  if(i%5===0){
-    continue;
-  }
-  console.log(i)
-}
-
-
-const statuses = ['PASS', 'FAIL', 'NOT_EXECUTED'];
-
-for (const result of statuses) {
-  if (result === 'FAIL') {
-    console.log('Test suite failed. Stopping further checks.');
-    break;
-  }
-}
-
-const users = [
-  {name: 'Steve', role: 'admin'},
-  {name: 'Lucy', role: 'user'},
-  {name: 'Mark', role: 'guest'},
-  {name: 'Anna', role: 'admin'}];
-
-for (const user of users) {
-  if (user.role === 'admin'){
-    console.log(`Admin detected → ${user.name}`);
-  }
-}
