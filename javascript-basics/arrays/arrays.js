@@ -11,21 +11,4 @@ for (const number of numbers) {
   }
 }
 
-const result = numbers.filter(number => number > 20);
 
-
-
-const employees = [
-  { name: 'Alice', department: 'Developer', experience: 3 },
-  { name: 'Bob', department: 'QA', experience: 2 },
-  { name: 'Steve', department: 'QA', experience: 5 }
-];
-
-const level = employees.map(emp => {
-  if (emp.experience < 3) {
-   console.log(emp,' Level: Junior');
-  } else if (emp.experience >= 3) {
-    console.log(emp,' Level: Senior');
-  }
-});
-console.log(level);
