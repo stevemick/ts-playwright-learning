@@ -42,3 +42,4 @@ console.log(validateLogin(''));
 console.log(validateLogin('   '));
 console.log(validateLogin(null));
 console.log(validateLogin(undefined));
+
